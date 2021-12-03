@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* ヘッダーのスタイル */
+
+header {
+  background-color: darkgray;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Yatra One', cursive;
+}
+
+/* ページの幅 */
+
+#wrapper {
+  width: 90%;
+  padding: 32px;
+}
+
+#profile_section {
+  display: flex;
+  padding: 24px;
+}
+
+#profile_txt {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+#profile_txt p {
+  display: block;
+}
+
+#profile_img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
